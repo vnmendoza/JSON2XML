@@ -1,0 +1,1618 @@
+{
+  "label": "QC Reject_CYIENT_Oct_2018",
+  "clientFile": "SCE.client",
+  "date": "2018-11-13",
+  "schema": "/v1/schema/spidacalc/calc/project.schema",
+  "version": 3,
+  "engineer": "",
+  "comments": "",
+  "generalLocation": "",
+  "address":   {
+    "number": "",
+    "street": "",
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip_code": ""
+  },
+  "userDefinedValues": {},
+  "clientFileVersion": "a55b689ee08b54a3074d323bd4d9eabb",
+  "forms": [],
+  "leads": [  {
+    "label": "Lead",
+    "locations": [    {
+      "label": "1430072E",
+      "mapNumber": "",
+      "comments": "",
+      "address":       {
+        "number": "",
+        "street": "",
+        "city": "",
+        "county": "",
+        "state": "",
+        "zip_code": ""
+      },
+      "technician": "",
+      "crossStreet1": "",
+      "crossStreet2": "",
+      "geographicCoordinate":       {
+        "type": "Point",
+        "coordinates":         [
+          -118.12011625,
+          34.08575078
+        ]
+      },
+      "remedies": [],
+      "poleTags": [],
+      "userDefinedValues": {},
+      "summaryNotes": [],
+      "forms":       [
+                {
+          "title": "SAP",
+          "template": "a55b689ee08b54a3074d323bd4d9eabb-SAP",
+          "fields":           {
+            "Field Inspection Date": "09/25/2018",
+            "Grandfather": "Yes",
+            "High Fire": "No",
+            "Special Project": "No",
+            "Associated Poles": "",
+            "Pole Type": "ED",
+            "District": "22 - Montebello",
+            "Region": "ED-SE-METROEAS",
+            "Above 3000 Ft Elevation": "No",
+            "As Is POA": "--",
+            "As Designed POA": "--",
+            "Recommended POA": "--",
+            "SCE QC POA": "--",
+            "Rework POA": "--",
+            "SCE TSP POA": "--",
+            "As Built POA": "--",
+            "As Designed Work Type": "--",
+            "Access Notes": ""
+          }
+        },
+                {
+          "title": "Pole Info Form",
+          "template": "a55b689ee08b54a3074d323bd4d9eabb-Pole Info Form",
+          "fields":           {
+            "Pole Equipment #": "",
+            "Previous Inspection Date": "",
+            "Year Installed": "1962",
+            "As Is POA Height": "",
+            "As Is POA Diameter": "",
+            "As Designed POA Height": "",
+            "As Designed POA Diameter": "",
+            "Thomas Guide/Quadrant": "",
+            "Circuit ": "",
+            "Substation": "",
+            "FIM": "",
+            "Location": "",
+            "City": "",
+            "Brand Height": "1",
+            "Date Pole Load Performed": "",
+            "Comments": "",
+            "GPS Location": ""
+          }
+        }
+      ],
+      "images":       [
+        {"url": "1430072E-1.jpg"},
+        {"url": "1430072E-2.jpg"},
+        {"url": "1430072E-3.jpg"},
+        {"url": "1430072E-4.jpg"},
+        {"url": "1430072E-5.jpg"},
+        {"url": "1430072E-6.jpg"},
+        {"url": "1430072E-7.jpg"},
+        {"url": "1430072E-8.jpg"},
+        {"url": "1430072E-9.jpg"},
+        {"url": "1430072E-10.jpg"},
+        {"url": "1430072E-11.jpg"},
+        {"url": "1430072E-12.jpg"},
+        {"url": "1430072E-13.jpg"},
+        {"url": "1430072E-14.jpg"},
+        {"url": "1430072E-15.jpg"},
+        {"url": "1430072E-16.jpg"},
+        {"url": "1430072E-17.jpg"},
+        {"url": "1430072E-18.jpg"},
+        {"url": "1430072E-19.jpg"},
+        {"url": "1430072E-20.jpg"},
+        {"url": "1430072E-21.jpg"},
+        {"url": "1430072E-22.jpg"},
+        {"url": "1430072E-23.jpg"},
+        {"url": "1430072E-24.jpg"},
+        {"url": "1430072E-25.jpg"},
+        {"url": "1430072E-26.jpg"},
+        {"url": "1430072E-27.jpg"},
+        {"url": "1430072E-28.jpg"}
+      ],
+      "designs": [      {
+        "label": "As Is",
+        "structure":         {
+          "pole":           {
+            "glc":             {
+              "unit": "FOOT",
+              "value": 3.2708333333333335
+            },
+            "agl":             {
+              "unit": "FOOT",
+              "value": 43.29999999999999
+            },
+            "environment": "STREET",
+            "temperature":             {
+              "unit": "FAHRENHEIT",
+              "value": 60
+            },
+            "stressRatio": 1,
+            "leanAngle": 0,
+            "leanDirection": 0,
+            "clientItem":             {
+              "species": "Western Red Cedar",
+              "classOfPole": "4",
+              "height":               {
+                "unit": "FOOT",
+                "value": 50
+              }
+            },
+            "externalId": "0fa1fae7-21d2-4e81-a41b-16a314f6656b",
+            "owner":             {
+              "id": "SCE",
+              "industry": "UTILITY",
+              "externalId": "b45dd5de-2843-4cc2-a14e-6d0488fb1144"
+            }
+          },
+          "wireEndPoints":           [
+                        {
+              "id": "WEP#1",
+              "externalId": "e20ddfc4-ee93-4f8d-b693-db9cc0c3144d",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 47
+              },
+              "direction": 329,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "OTHER_POLE",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#6",
+                "Wire#7",
+                "Wire#9",
+                "Wire#11",
+                "Wire#13",
+                "Wire#24",
+                "Wire#25",
+                "Wire#26",
+                "Wire#32"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#2",
+              "externalId": "12cc190c-1032-40a6-b7c7-eae84f9d2907",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 146
+              },
+              "direction": 259,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "NEXT_POLE",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#8",
+                "Wire#10",
+                "Wire#12",
+                "Wire#16",
+                "Wire#18",
+                "Wire#20",
+                "Wire#21",
+                "Wire#23",
+                "Wire#27",
+                "Wire#29"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#3",
+              "externalId": "b751598c-d7e9-481c-a3d4-01bc63f888dd",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 73
+              },
+              "direction": 331,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "BUILDING",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#1",
+                "Wire#22"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#4",
+              "externalId": "4d3cb828-261b-4b79-8333-0fc2dbc53429",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 40
+              },
+              "direction": 13,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "BUILDING",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#3",
+                "Wire#19"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#5",
+              "externalId": "b244a4c9-4148-4286-8302-153f34de58b1",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 77
+              },
+              "direction": 305,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "BUILDING",
+              "comments": "",
+              "environment": "NONE",
+              "wires": ["Wire#14"],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#6",
+              "externalId": "4a7f6641-5e09-4951-9349-87a1cffea0be",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 62
+              },
+              "direction": 36,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "BUILDING",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#15",
+                "Wire#28"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            },
+                        {
+              "id": "WEP#7",
+              "externalId": "81185342-5e2e-4e78-ae1f-978b1f5fb5eb",
+              "distance":               {
+                "unit": "FOOT",
+                "value": 101
+              },
+              "direction": 79,
+              "inclination":               {
+                "unit": "DEGREE_ANGLE",
+                "value": 0
+              },
+              "type": "PREVIOUS_POLE",
+              "comments": "",
+              "environment": "NONE",
+              "wires":               [
+                "Wire#2",
+                "Wire#4",
+                "Wire#5",
+                "Wire#17",
+                "Wire#30",
+                "Wire#31"
+              ],
+              "spanGuys": [],
+              "spanPoints": []
+            }
+          ],
+          "spanPoints": [],
+          "anchors": [],
+          "notePoints": [],
+          "pointLoads": [],
+          "damages": [],
+          "wires":           [
+                        {
+              "id": "Wire#1",
+              "externalId": "e742d614-82ad-44b3-aa20-73751d26d7fd",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#2",
+              "externalId": "90b86eb9-db7c-4246-94a1-4efd027384fa",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#3",
+              "externalId": "e9cda2ec-7796-451f-a481-ee288a04be54",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#4",
+              "externalId": "b108c041-aac1-4cea-8e6a-4a0fdfc655c9",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": "3.5\" TELCO 5/16\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 21.802083333333332
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#5",
+              "externalId": "f3c9727b-d465-456c-9d33-cea6abb64767",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#6",
+              "externalId": "7cb8b5e6-2ea4-4ae1-b6ca-37a16a60612a",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#7",
+              "externalId": "9724c3e9-41f4-4daf-bea3-20b0c086b301",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#8",
+              "externalId": "1cd01320-cedd-42db-bff5-e069538bc2d0",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "4 Copper 1 Strand",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.69791666666667
+              },
+              "usageGroup": "SECONDARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#9",
+              "externalId": "31007f8d-0800-4618-bcf0-10eed17f6e3c",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#10",
+              "externalId": "5a1befb4-081e-46f8-b3eb-88329453b67e",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "4 Copper 1 Strand",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.69791666666667
+              },
+              "usageGroup": "SECONDARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#11",
+              "externalId": "1a636552-bf18-4bc1-8c02-da561c5d7161",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#12",
+              "externalId": "0ee64f87-138e-4225-b634-67a960741456",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#13",
+              "externalId": "b62eca7b-3462-4227-bca6-77fb7786a167",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#14",
+              "externalId": "f8e80d1b-ddcf-4950-9ad2-1eaa6c3a053c",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".5\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 12
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.197916666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#15",
+              "externalId": "917cf09a-98ac-4569-940f-7687ee492589",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#16",
+              "externalId": "d028daab-db1a-4c1a-888d-0128b4d52a4a",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": "3.5\" TELCO 5/16\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 21.802083333333332
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#17",
+              "externalId": "fe958206-9eeb-4b6e-a09b-dfb41716e18b",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": "3.5\" TELCO 5/16\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 23.302083333333336
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#18",
+              "externalId": "706de262-b779-4f9d-899d-28fb19aab220",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#19",
+              "externalId": "18c3a349-7794-4d36-89f2-c381630aef3b",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".375\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#20",
+              "externalId": "9065bc73-e632-4985-9585-b82a4290e2ec",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#21",
+              "externalId": "83c8b51d-304a-4435-8807-e08fa9b6c074",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".5\" CATV 1/4\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#22",
+              "externalId": "229213d7-7afc-4d82-bb08-3cc5836a8f26",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" CATV Service",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#23",
+              "externalId": "d1faa113-96a4-4da2-8b28-b1b907b0c35a",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "4 Copper 1 Strand",
+                "coreStrands": 0,
+                "conductorStrands": 1
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.69791666666667
+              },
+              "usageGroup": "SECONDARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#24",
+              "externalId": "146faf8d-aceb-4ebe-992f-d3ec74e9f7a4",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#25",
+              "externalId": "180bc26f-486e-4fff-97c9-657a0507c84e",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#26",
+              "externalId": "2cedcf93-6a37-4bb6-9ba7-6b799219d0cd",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 Al. Triplex",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.69791666666667
+              },
+              "usageGroup": "SECONDARY",
+              "tensionGroup": "Light Reduced Unguyed",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#27",
+              "externalId": "eb19310a-57ed-4904-a05c-8690c501d53e",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": "9/32\" EHS",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 34
+              },
+              "usageGroup": "GUY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 0.2
+            },
+                        {
+              "id": "Wire#28",
+              "externalId": "ff7c0a00-90a9-49c6-b23b-3a6edb9f96ef",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#29",
+              "externalId": "ec317129-3b1f-4ac7-ab30-1c9bac2bcfdc",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": "3.5\" TELCO 5/16\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 23.302083333333336
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#30",
+              "externalId": "a3426390-9662-4915-8c0a-bad240c789a3",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "size": "1/0 ACSR",
+                "coreStrands": 1,
+                "conductorStrands": 6
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 43.416666666666664
+              },
+              "usageGroup": "PRIMARY",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#31",
+              "externalId": "22ca50ba-259b-4afd-8ff3-703bcdfe724c",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".5\" CATV 1/4\" Messenger",
+                "coreStrands": 0,
+                "conductorStrands": 7
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.302083333333336
+              },
+              "usageGroup": "COMMUNICATION",
+              "tensionGroup": "Light Full",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            },
+                        {
+              "id": "Wire#32",
+              "externalId": "655e738a-d0ae-4fda-bdff-c831126a8dcd",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem":               {
+                "size": ".25\" TELCO Service",
+                "coreStrands": 0,
+                "conductorStrands": 4
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.401041666666668
+              },
+              "usageGroup": "COMMUNICATION_SERVICE",
+              "tensionGroup": "Service",
+              "midspanHeight":               {
+                "unit": "FOOT",
+                "value": 0
+              },
+              "tensionAdjustment": 1
+            }
+          ],
+          "spanGuys": [],
+          "guys": [],
+          "equipments":           [
+                        {
+              "id": "Equip#1",
+              "externalId": "e90f191c-ada0-48a6-95d0-2d574c6126c5",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "type": "CUTOUT_ARRESTOR",
+                "size": "Fuse Arm with 2 Cutouts"
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "bottomHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "direction": 350
+            },
+                        {
+              "id": "Equip#2",
+              "externalId": "3ec19204-f467-47c0-8673-70860205bf65",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "type": "JOINT_USE_BOX",
+                "size": "Small (6\" X 6\")"
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 18.5
+              },
+              "bottomHeight":               {
+                "unit": "FOOT",
+                "value": 18.5
+              },
+              "direction": 348
+            },
+                        {
+              "id": "Equip#3",
+              "externalId": "2bd34d08-f253-4995-9c58-49d46d256f62",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem":               {
+                "type": "TRANSFORMER",
+                "size": "15 kVA Transformer"
+              },
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 39.3
+              },
+              "bottomHeight":               {
+                "unit": "FOOT",
+                "value": 39.3
+              },
+              "direction": 258
+            }
+          ],
+          "crossArms":           [
+                        {
+              "id": "CrossArm#1",
+              "externalId": "57801e8e-ef82-4864-80cf-ee4707689d19",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "10 Foot Cross Arm",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.5
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 60
+              },
+              "direction": 168,
+              "associatedBacking": "Other",
+              "insulators":               [
+                "Insulator#6",
+                "Insulator#8",
+                "Insulator#11",
+                "Insulator#13"
+              ]
+            },
+                        {
+              "id": "CrossArm#2",
+              "externalId": "10b85301-974d-426e-a8f4-b7c2425f736a",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "10 Foot Cross Arm",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 60
+              },
+              "direction": 350,
+              "associatedBacking": "Other",
+              "insulators":               [
+                "Insulator#3",
+                "Insulator#4",
+                "Insulator#7"
+              ]
+            }
+          ],
+          "insulators":           [
+                        {
+              "id": "Insulator#1",
+              "externalId": "2e4b501e-b070-4e09-a971-2163da2daa9b",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3 Bolt Suspension Clamp",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 25.3
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 303.6
+              },
+              "direction": 348,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#1",
+                "Wire#3",
+                "Wire#6",
+                "Wire#15",
+                "Wire#19",
+                "Wire#21",
+                "Wire#22",
+                "Wire#31"
+              ]
+            },
+                        {
+              "id": "Insulator#2",
+              "externalId": "42484d95-2ce9-4113-b4d9-5897d7cb342e",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3 Bolt Suspension Clamp",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 21.799999999999997
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 261.59999999999997
+              },
+              "direction": 348,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#4",
+                "Wire#16"
+              ]
+            },
+                        {
+              "id": "Insulator#3",
+              "externalId": "8263b4a1-479c-40f3-8fc0-0e6eddb1bbb7",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "16 kV Pin (Cross Arm)",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 33.00000000000001
+              },
+              "direction": 259,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#18",
+                "Wire#30"
+              ]
+            },
+                        {
+              "id": "Insulator#4",
+              "externalId": "090063da-2af6-445c-94ed-6bbaa2a6d3eb",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "16 kV Pin (Cross Arm)",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 4.000000116
+              },
+              "direction": 79,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#2",
+                "Wire#20"
+              ]
+            },
+                        {
+              "id": "Insulator#5",
+              "externalId": "4ec8c002-b3c2-4f69-b63e-a2f057dc4392",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3\" Clevis Insulator",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.2
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 266.4
+              },
+              "direction": 258,
+              "doubleInsulator": false,
+              "wires": ["Wire#14"]
+            },
+                        {
+              "id": "Insulator#6",
+              "externalId": "00f1b4ab-3557-4fdd-b7a9-87839336013d",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "3\" Spool Bolt",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.5
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 103
+              },
+              "direction": 329,
+              "doubleInsulator": false,
+              "wires": ["Wire#26"]
+            },
+                        {
+              "id": "Insulator#7",
+              "externalId": "4941709a-2097-449f-9024-ef6c3f9ce558",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "16 kV Pin (Cross Arm)",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 42.3
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 116.000004
+              },
+              "direction": 79,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#5",
+                "Wire#12"
+              ]
+            },
+                        {
+              "id": "Insulator#8",
+              "externalId": "8817a54c-f912-45b9-b266-7acbdacc75aa",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "3\" Spool Bolt",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.5
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 116
+              },
+              "direction": 259,
+              "doubleInsulator": false,
+              "wires": ["Wire#23"]
+            },
+                        {
+              "id": "Insulator#9",
+              "externalId": "be78eb87-bc6b-41be-8f89-19409572ae23",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3 Bolt Suspension Clamp",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 23.300000000000004
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 279.6
+              },
+              "direction": 348,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#17",
+                "Wire#29"
+              ]
+            },
+                        {
+              "id": "Insulator#10",
+              "externalId": "c2379600-42fe-46a4-ad3c-b354bfe179b1",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3\" Clevis Insulator",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 22.400000000000002
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 268.8
+              },
+              "direction": 78,
+              "doubleInsulator": false,
+              "wires":               [
+                "Wire#7",
+                "Wire#9",
+                "Wire#11",
+                "Wire#13",
+                "Wire#24",
+                "Wire#25",
+                "Wire#28",
+                "Wire#32"
+              ]
+            },
+                        {
+              "id": "Insulator#11",
+              "externalId": "241a3d0c-dd70-440b-b9b2-e8e288f48c94",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "3\" Spool Bolt",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.5
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 97
+              },
+              "direction": 259,
+              "doubleInsulator": false,
+              "wires": ["Wire#10"]
+            },
+                        {
+              "id": "Insulator#12",
+              "externalId": "c0944661-0616-4583-b9fe-58faa75874a6",
+              "owner":               {
+                "id": "Unknown",
+                "industry": "COMMUNICATION",
+                "externalId": "fc72f814-c695-41f4-9bfb-5e8b6f5bf8cd"
+              },
+              "clientItem": "3\" Clevis Insulator",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 34
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 408
+              },
+              "direction": 258,
+              "doubleInsulator": false,
+              "wires": ["Wire#27"]
+            },
+                        {
+              "id": "Insulator#13",
+              "externalId": "64217dbb-2b6d-4103-98df-677eb214d02e",
+              "owner":               {
+                "id": "SCE",
+                "industry": "UTILITY",
+                "externalId": "b2ad09d4-7ddb-4c68-be8e-60c57cd3bcd0"
+              },
+              "clientItem": "3\" Spool Bolt",
+              "attachmentHeight":               {
+                "unit": "FOOT",
+                "value": 36.5
+              },
+              "offset":               {
+                "unit": "INCH",
+                "value": 3.9999999999999996
+              },
+              "direction": 259,
+              "doubleInsulator": false,
+              "wires": ["Wire#8"]
+            }
+          ],
+          "pushBraces": [],
+          "sidewalkBraces": [],
+          "foundations": []
+        },
+        "analysis":         [
+                    {
+            "id": "In Service, Light, 8 lb, Grade A",
+            "results": [            {
+              "actual": 2.52569013239316,
+              "allowable": 2.6666666666666665,
+              "unit": "SF",
+              "analysisDate": 1544729547149,
+              "component": "Pole",
+              "loadInfo": "In Service, Light, 8 lb, Grade A",
+              "passes": false
+            }]
+          },
+                    {
+            "id": "In Service, 12 lb, Grade A",
+            "results": [            {
+              "actual": 1.7636041396936795,
+              "allowable": 2,
+              "unit": "SF",
+              "analysisDate": 1544729547150,
+              "component": "Pole",
+              "loadInfo": "In Service, 12 lb, Grade A",
+              "passes": false
+            }]
+          },
+                    {
+            "id": "GO95",
+            "results": [            {
+              "actual": 100,
+              "allowable": 66.66666666666666,
+              "unit": "PERCENT",
+              "analysisDate": 1544729547150,
+              "component": "Pole-Strength",
+              "loadInfo": "GO95",
+              "passes": true
+            }]
+          }
+        ]
+      }]
+    }]
+  }]
+}
